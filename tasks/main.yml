@@ -1,0 +1,12 @@
+---
+# tasks file for facts
+- name: create ansible facts directory
+  file:
+    path: /etc/ansible/facts.d
+    state: directory
+
+- name: place custom facts
+  template:
+    src: "facts.j2"
+    dest: /etc/ansible/facts.d/custom.fact
+  notify: setup

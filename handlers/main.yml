@@ -1,0 +1,4 @@
+---
+# handlers file for facts
+- name: setup
+  setup:
