@@ -2,7 +2,7 @@
 galaxy_info:
   author: Robert de Bock
   role_name: facts
-  description: Install and configure facts on your system.
+  description: Place custom facts for Ansible on a system.
   license: Apache-2.0
   company: none
   min_ansible_version: 2.7

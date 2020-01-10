@@ -6,7 +6,7 @@ facts
 
 <a href="https://github.com/robertdebock/ansible-role-facts/actions"><img src="https://github.com/robertdebock/ansible-role-facts/workflows/GitHub%20Action/badge.svg"/></a>
 
-Install and configure facts on your system.
+Place custom facts for Ansible on a system.
 
 Example Playbook
 ----------------
