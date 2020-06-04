@@ -2,9 +2,9 @@
 
 Place custom facts for Ansible on a system.
 
-|Travis|GitHub|Quality|Downloads|
-|------|------|-------|---------|
-|[![travis](https://travis-ci.com/robertdebock/ansible-role-facts.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-facts)|[![github](https://github.com/robertdebock/ansible-role-facts/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-facts/actions)|[![quality](https://img.shields.io/ansible/quality/46400)](https://galaxy.ansible.com/robertdebock/facts)|[![downloads](https://img.shields.io/ansible/role/d/46400)](https://galaxy.ansible.com/robertdebock/facts)|
+|Travis|GitHub|Quality|Downloads|Version|
+|------|------|-------|---------|-------|
+|[![travis](https://travis-ci.com/robertdebock/ansible-role-facts.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-facts)|[![github](https://github.com/robertdebock/ansible-role-facts/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-facts/actions)|[![quality](https://img.shields.io/ansible/quality/46400)](https://galaxy.ansible.com/robertdebock/facts)|[![downloads](https://img.shields.io/ansible/role/d/46400)](https://galaxy.ansible.com/robertdebock/facts)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-facts.svg)](https://github.com/robertdebock/ansible-role-facts/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
