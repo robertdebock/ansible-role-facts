@@ -1,0 +1,19 @@
+---
+- name: test if facts is set correctly
+  assert:
+    that:
+      - facts | length > 0
+      - facts is iterable
+  when:
+    - facts is defined
+
+- name: test if item in facts is set correctly
+  assert:
+    that:
+      - item.key is defined
+      - item.key | length > 0
+      - item.value is defined
+      - item.value | length > 0
+  loop: "{{ facts }}"
+  when:
+    - facts is defined
