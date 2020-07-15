@@ -16,5 +16,7 @@
       - item.value | length > 0
     quiet: yes
   loop: "{{ facts }}"
+  loop_control:
+    label: "{{ item.key }}"
   when:
     - facts is defined
