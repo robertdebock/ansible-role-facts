@@ -4,6 +4,7 @@
     that:
       - facts | length > 0
       - facts is iterable
+    quiet: yes
   when:
     - facts is defined
 
