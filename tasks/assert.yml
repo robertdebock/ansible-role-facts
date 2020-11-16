@@ -2,7 +2,6 @@
 - name: test if facts is set correctly
   assert:
     that:
-      - facts | length > 0
       - facts is iterable
     quiet: yes
   when:
@@ -12,9 +11,7 @@
   assert:
     that:
       - item.key is defined
-      - item.key | length > 0
       - item.value is defined
-      - item.value | length > 0
     quiet: yes
   loop: "{{ facts }}"
   loop_control:
