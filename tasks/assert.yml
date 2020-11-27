@@ -12,6 +12,7 @@
   assert:
     that:
       - item.key is defined
+      - item.key is string
       - item.value is defined
     quiet: yes
   loop: "{{ facts }}"
