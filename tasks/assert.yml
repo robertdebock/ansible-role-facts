@@ -1,7 +1,7 @@
 ---
 
 - name: test if facts is set correctly
-  assert:
+  ansible.builtin.assert:
     that:
       - facts is iterable
     quiet: yes
@@ -9,7 +9,7 @@
     - facts is defined
 
 - name: test if item in facts is set correctly
-  assert:
+  ansible.builtin.assert:
     that:
       - item.key is defined
       - item.key is string

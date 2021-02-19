@@ -2,4 +2,4 @@
 # handlers file for facts
 
 - name: setup
-  setup:
+  ansible.builtin.setup:
