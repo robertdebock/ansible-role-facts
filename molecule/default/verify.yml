@@ -6,7 +6,7 @@
 
   tasks:
     - name: check if my_fact is set
-      assert:
+      ansible.builtin.assert:
         that:
           - ansible_local.custom.datacenter == "Amsterdam"
           - ansible_local.custom.availability_zone == "west"
