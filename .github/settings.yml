@@ -5,4 +5,4 @@
 repository:
   description: Place custom facts for Ansible on a system.
   homepage: https://robertdebock.nl/
-  topics: facts, ansible, molecule, tox, playbook, hacktoberfest
+  topics: facts, ansible, molecule, tox, playbook
