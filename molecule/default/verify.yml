@@ -5,7 +5,7 @@
   gather_facts: yes
 
   tasks:
-    - name: check if my_fact is set
+    - name: Check if my_fact is set
       ansible.builtin.assert:
         that:
           - ansible_local.custom.datacenter == "Amsterdam"
