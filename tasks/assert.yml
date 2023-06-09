@@ -13,6 +13,7 @@
     that:
       - item.key is defined
       - item.key is string
+      - item.key is not none
       - item.value is defined
     quiet: yes
   loop: "{{ facts }}"
